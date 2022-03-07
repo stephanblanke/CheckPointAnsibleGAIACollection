@@ -27,7 +27,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 
 DOCUMENTATION = """
 module: cp_gaia_vlan_interfaces_facts
-author: stephanblanke (@stephanblanke)
+author: Stephan Blanke (@stephanblanke)
 description:
 - Show Vlan interfaces
 short_description: Show Vlan interface/s

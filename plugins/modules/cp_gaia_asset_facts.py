@@ -27,7 +27,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 
 DOCUMENTATION = """
 module: cp_gaia_asset_facts
-author: stephanblanke (@stephanblanke)
+author: Stephan Blanke (@stephanblanke)
 description:
 - Show assets
 short_description: Show assets

@@ -27,10 +27,10 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 
 DOCUMENTATION = """
 module: cp_gaia_gre_interfaces_facts
-author: stephanblanke (@stephanblanke)
+author: Stephan Blanke (@stephanblanke)
 description:
-- Show gre interfaces
-short_description: Show gre interface/s
+- Show GRE interfaces
+short_description: Show GRE interface/s
 version_added: '1.0.0'
 options:
   name:
@@ -46,7 +46,7 @@ EXAMPLES = """
 
 - name: Show gre interface by specifying it name
   cp_gaia_gre_interfaces_facts:
-    name: eth0.10
+    name: gre1
 
 """
 

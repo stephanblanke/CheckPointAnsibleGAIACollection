@@ -27,7 +27,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 
 DOCUMENTATION = """
 module: cp_gaia_interfaces_facts
-author: stephanblanke (@stephanblanke)
+author: Stephan Blanke (@stephanblanke)
 description:
 - Show interfaces
 short_description: Show interface/s
@@ -44,9 +44,11 @@ EXAMPLES = """
 - name: Show interfaces
   cp_gaia_interfaces_facts:
 
-- name: Show interface by specifying it name
+- name: Show interface by specifying its name
   cp_gaia_interfaces_facts:
-    name: eth0.10
+    name:
+      - eth2
+      - bond7
 
 """
 

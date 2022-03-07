@@ -27,7 +27,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 
 DOCUMENTATION = """
 module: cp_gaia_loopback_interfaces_facts
-author: stephanblanke (@stephanblanke)
+author: Stephan Blanke (@stephanblanke)
 description:
 - Show loopback interfaces
 short_description: Show loopback interface/s
@@ -46,7 +46,7 @@ EXAMPLES = """
 
 - name: Show loopback interface by specifying it name
   cp_gaia_loopback_interfaces_facts:
-    name: eth0.10
+    name: loop00
 
 """
 

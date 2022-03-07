@@ -27,7 +27,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 
 DOCUMENTATION = """
 module: cp_gaia_vxlan_interfaces_facts
-author: stephanblanke (@stephanblanke)
+author: Stephan Blanke (@stephanblanke)
 description:
 - Show vxlan interfaces
 short_description: Show vxlan interface/s
@@ -46,7 +46,7 @@ EXAMPLES = """
 
 - name: Show vxlan interface by specifying it name
   cp_gaia_vxlan_interfaces_facts:
-    name: eth0.10
+    name: vxlan200
 
 """
 

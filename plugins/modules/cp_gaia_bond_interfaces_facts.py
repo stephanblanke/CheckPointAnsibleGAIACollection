@@ -27,7 +27,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 
 DOCUMENTATION = """
 module: cp_gaia_bond_interfaces_facts
-author: stephanblanke (@stephanblanke)
+author: Stephan Blanke (@stephanblanke)
 description:
 - Show bond interfaces
 short_description: Show bond interface/s
@@ -46,7 +46,7 @@ EXAMPLES = """
 
 - name: Show bond interface by specifying it name
   cp_gaia_bond_interfaces_facts:
-    name: eth0.10
+    name: bond5
 
 """
 

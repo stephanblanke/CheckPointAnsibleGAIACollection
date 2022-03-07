@@ -37,7 +37,7 @@ version_added: '1.0.0'
 
 EXAMPLES = """
 - name: Show cluster state
-  cp_gaia_hostname_facts:
+  cp_gaia_cluster_state_facts:
 
 """
 
