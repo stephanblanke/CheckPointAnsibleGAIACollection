@@ -44,16 +44,29 @@ Example playbook:
 ```
 Modules
 -------
+* `cp_gaia_alias_interfaces_facts` – Get the information about alias interfaces of a Check Point machine over Web Services API.
+* `cp_gaia_asset_facts` – Get the assets of a Check Point machine over Web Services API.
+* `cp_gaia_bond_interfaces_facts` – Get the information about bond interfaces of a Check Point machine over Web Services API.
+* `cp_gaia_bridge_interfaces_facts` – Get the information about bridge interfaces of a Check Point machine over Web Services API.
+* `cp_gaia_cluster_state_facts` – Get the cluster state of a Check Point machine over Web Services API.
 * `cp_gaia_hostname` – Manage the hostname of a Check Point machine over Web Services API.
 * `cp_gaia_hostname_facts` – Get the hostname of a Check Point machine over Web Services API.
 * `cp_gaia_physical_interface` – Manage physical interface of a Check Point machine over Web Services API.
 * `cp_gaia_physical_interfaces_facts` – Get information about physical interfaces of a Check Point machine over Web Services API.
 * `cp_gaia_put_file` – Add a new file to a Check Point machine over Web Services API.
 * `cp_gaia_dns` - Manage the dns of a Check Point machine over Web Services API.
-* `cp_gaia_dns_facts` - Get the dns of a Check Point machine over Web Services API.
+* `cp_gaia_dns_facts` - Get DNS configuration of a Check Point machine over Web Services API.
+* `cp_gaia_dhcp_server_facts` - Get DHCP server information of a Check Point machine over Web Services API.
+* `cp_gaia_gre_interfaces_facts` – Get information about GRE interfaces of a Check Point machine over Web Services API.
+* `cp_gaia_interfaces_facts` – Get information about all interfaces of a Check Point machine over Web Services API.
 * `cp_gaia_ipv6` - Manage the ipv6 of a Check Point machine over Web Services API.
 * `cp_gaia_ipv6_facts` - Get the ipv6 of a Check Point machine over Web Services API.
+* `cp_gaia_loopback_interfaces_facts` – Get information about loopback interfaces of a Check Point machine over Web Services API.
+* `cp_gaia_ntp_facts` - Get NTP configuration of a Check Point machine over Web Services API.
 * `cp_gaia_remote_syslog` - Manage the remote syslog of a Check Point machine over Web Services API.
 * `cp_gaia_remote_syslog_facts` - Get the remote syslog of a Check Point machine over Web Services API.
 * `cp_gaia_syslog` - Manage the syslog of a Check Point machine over Web Services API.
 * `cp_gaia_syslog_facts` - Get the syslog of a Check Point machine over Web Services API.
+* `cp_gaia_version_facts` – Get software and product versions of a Check Point machine over Web Services API.
+* `cp_gaia_vlan_interfaces_facts` – Get information about vlan interfaces of a Check Point machine over Web Services API.
+* `cp_gaia_vxlan_interfaces_facts` – Get information about vxlan interfaces of a Check Point machine over Web Services API.
